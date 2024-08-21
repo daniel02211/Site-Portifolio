@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+
+
+  <title>Portifólio</title>
+</head>
+<body>
+  <div class="cotainer">
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-nome">WD</p>
+        <span>.</span>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-menu-lista">
+          <li class="nav-lista">
+            <a href="#home" class="nav-link active-link">Home</a>
+            <div class="cicle"></div>
+          </li>
+          <li class="nav-lista">
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <div class="cicle"></div>
+          </li>          <li class="nav-lista">
+            <a href="#portifolio" class="nav-link">Portifólio</a>
+            <div class="cicle"></div>
+          </li>
+          <li class="nav-lista">
+            <a href="#contato" class="nav-link">Contato</a>
+            <div class="cicle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn">Download CV <i class="uil uil-file-download-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="fa-solid fa-bars"onclick="menuFuncion()"></i>
+      </div>
+    </nav>
+<main class="capa">
+
+<section class="caixa-destaque" id="home">
+  <div class="texto-destaque">
+    <div class="cartao-em-destaque">
+      <span>Willain Daniel</span>
+    </div>
+    <div class="destaque-nome">
+      <p>Eu sou <span class="texto-span">Dev Frontend</span></p>
+    </div>
+    <div class="info-texto">
+      <p>
+        Uso minha criatividade para criar minhas ideias em sites, transformando conceitos em experiências digitais funcionais e atraentes.
+      </p>
+    </div>
+    <div class="icones-midias-sociais">
+      <div class="icone"><i class="fa-brands fa-linkedin"></i></div>
+      <div class="icone"><i class="fa-brands fa-github"></i></div>
+    </div>
+  </div>
+  <div class="imagem-destaque">
+    <div class="imagem">
+      <img src="img/eumesmo.png" alt="avatar">
+    </div>
+  </div>
+  <div class="caixa-de-rolagem">
+    <div class="rolagem-btn">
+      <i class="fa-solid fa-computer-mouse"></i>
+      <a href="#sobre" class="rolar"><i class="fa-solid fa-computer-mouse"></i>Rolar Para baixo</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="sobre">
+  <div class="titulo"><h1>Sobre mim</h1></div>
+  <div class="row">
+    <div class="col">
+      <div class="sobre-info">
+        <h3>Minha introdução</h3>
+        <p>Sou estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. <br>
+            Tenho experiência em <strong>HTML, CSS e JavaScript</strong>, e atualmente estou me especializando em <strong>React e Bootstrap</strong>.<br>
+            Busco constantemente expandir minhas habilidades para criar soluções eficientes e criativas. Estou sempre pronto para novos desafios
+          </p>
+          <div class="sobre-button">
+            <button class="btn">
+              Download CV <i class="fa-solid fa-upload"></i>
+            </button>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="skills-box">
+        <div class="skills-header">
+          <h3>Frontend</h3>
+        </div>
+        <div class="skills-list">
+          <span><i class="fa-brands fa-html5"></i> HTML</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+          <span><i class="fa-brands fa-js"></i> JavaScript</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <div class="skills-header">
+          <h3>Aprendendo</h3>
+        </div>
+        <div class="skills-list">
+          <span><i class="fa-brands fa-react"></i> React</span>
+          <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+        </div>
+      </div>
+  </div>
+  </section>
+
+<section class="section" id="portifolio"> 
+    <div class="titulo"><h1>Portifólio</h1></div>
+    <div class="projetos">
+      <div class="projeto">
+        <div class="descricao">
+          <h3>Título do Projeto</h3>
+          <p>descrição</p>
+          <div class="img-port" style="background-image: url(img/people-building-metaverse.png);"></div>
+          <div class="btn-projeto">
+            <button class="btn">Site</button>
+            <button class="btn">código</button>
+          </div>
+        </div>
+      </div>
+      <div class="projeto">
+        <div class="descricao">
+          <h3>Título do Projeto</h3>
+          <p>descrição</p>
+          <div class="img-port" style="background-image: url(img/people-building-metaverse.png);"></div>
+          <div class="btn-projeto">
+            <button class="btn">Site</button>
+            <button class="btn">código</button>
+          </div>
+        </div>
+      </div>
+      <div class="projeto">
+        <div class="descricao">
+          <h3>Título do Projeto</h3>
+          <p>descrição</p>
+          <div class="img-port" style="background-image: url(img/people-building-metaverse.png);"></div>
+          <div class="btn-projeto">
+            <button class="btn">Site</button>
+            <button class="btn">código</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="section" id="contato">
+  <div class="titulo">
+    <h1>Entre em contato</h1>
+  </div>
+    <div class="row">
+      <div class="col">
+        <div class="contato-info">
+          <h2>Encontre-me <i class="fa-solid fa-arrow-down"></i></h2>
+          <p><i class="fa-solid fa-envelope"></i> Email: willian.danielsilva.99@gmail.com </p>
+          <p class="wpp"><i class="fa-brands fa-whatsapp"></i> Whatsapp: (11)988380732 </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-control">
+          <div class="form-inputs">
+            <input type="text" class="input-field" placeholder="Nome">
+            <input type="text" class="input-field" placeholder="Email">
+          </div>
+          <div class="texto-area">
+            <textarea placeholder="Mensagem"></textarea>
+          </div>
+          <div class="form-button">
+            <button class="btn">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+<footer>
+  <div class="rodape-superior">
+    <p>Willian Daniel</p>
+  </div>
+  <div class="rodape-meio">
+    <ul class="rodape-menu">
+      <li class="rodape-lista">
+        <a href="#home">Home</a>
+      </li>
+      <li class="rodape-lista">
+        <a href="#sobre">Sobre</a>
+      </li>
+      <li class="rodape-lista">
+        <a href="#portifolio">Portifólio</a>
+      </li>
+      <li class="rodape-lista">
+        <a href="#contato">Contato</a>
+      </li>
+    </ul>
+  </div>
+  <div class="rede-social-rodape">
+    <div class="icone"><i class="fa-brands fa-linkedin"></i></div>
+    <div class="icone"><i class="fa-brands fa-github"></i></div>
+  </div>
+  <div class="button-rodape">
+    <p>Feito Por &copy; <a href="#home" style="text-decoration: none;">Willian Daniel</a></p>
+  </div>
+</footer>
+    
+  </main>
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="index.js"></script>
+</body>
+</html>
